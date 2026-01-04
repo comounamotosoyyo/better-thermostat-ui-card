@@ -468,15 +468,29 @@ export class BetterThermostatUISmallCard
           }
           const icon = getHvacModeIcon((entity.attributes.preset_mode || "none") as HvacMode);
 
-          return html`
-            <mushroom-button
-              style=${styleMap(iconStyle)}
-              .mode=${selectedMode}
-              @click=${(e: Event) => { e.stopPropagation(); this._openPresetSelect(true); }}
-            >
-              <ha-icon .icon=${icon}></ha-icon>
-            </mushroom-button>
-          `;
+          const presets = entity.attributes.preset_modes?.filter(p => p != "none") || [];
+          if (presets.length === 1) {
+            return html`
+                <mushroom-button
+                  style=${styleMap(iconStyle)}
+                  .mode=${selectedMode}
+                    @click=${this.triggerModeChange.bind(this, presets[0])}
+                    @longpress=${(e: Event) => { e.stopPropagation(); this._openPresetSelect(true); }}
+                >
+                  <ha-icon .icon=${getHvacModeIcon(presets[0].toString())}></ha-icon>
+                </mushroom-button>
+                `;
+          } else {
+            return html`
+              <mushroom-button
+                style=${styleMap(iconStyle)}
+                .mode=${selectedMode}
+                @click=${(e: Event) => { e.stopPropagation(); this._openPresetSelect(true); }}
+              >
+                <ha-icon .icon=${icon}></ha-icon>
+              </mushroom-button>
+            `;
+          }
   }
 
   private _openPresetSelect(open = true) {

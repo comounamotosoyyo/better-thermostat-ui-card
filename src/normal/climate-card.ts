@@ -476,7 +476,21 @@ export class BetterThermostatUINormalCard extends MushroomBaseElement implements
             iconStyle["--bg-color"] = `rgba(${color}, 0.2)`;
           }
           const icon = getHvacModeIcon(this._stateObj.attributes.preset_mode);
+          const presets = this._stateObj.attributes.preset_modes?.filter(p => p != "none") || [];
 
+
+          if (presets.length === 1) {
+            return html`
+                <mushroom-button
+                  style=${styleMap(iconStyle)}
+                  .mode=${selectedMode}
+                    @click=${this.triggerModeChange.bind(this, presets[0])}
+                    @longpress=${(e: Event) => { e.stopPropagation(); this._openPresetSelect(true); }}
+                >
+                  <ha-icon .icon=${getHvacModeIcon(presets[0].toString())}></ha-icon>
+                </mushroom-button>
+                `;
+          } else {
           return html`
             <mushroom-button
               style=${styleMap(iconStyle)}
@@ -487,6 +501,7 @@ export class BetterThermostatUINormalCard extends MushroomBaseElement implements
               <ha-icon .icon=${icon}></ha-icon>
             </mushroom-button>
           `;
+          }
     }
 
     const iconStyle = {};
