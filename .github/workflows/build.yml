@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: oven-sh/setup-bun@v2
         with:
-          submodules: recursive
+          bun-version: stable
       - name: Build
         run: |
           bun install
