@@ -13,14 +13,13 @@ jobs:
     name: Test build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
         with:
           submodules: recursive
       - name: Build
         run: |
-          npm install --force
-          npm ci --ignore-scripts
-          npm run build
+          bun install
+          bun run build
       - name: HACS Action
         uses: "hacs/action@main"
         with:
