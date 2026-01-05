@@ -477,10 +477,10 @@ export class BetterThermostatUISmallCard
                     @click=${this.triggerModeChange.bind(this, presets[0])}
                     @longpress=${(e: Event) => { e.stopPropagation(); this._openPresetSelect(true); }}
                 >
-                  <ha-icon .icon=${getHvacModeIcon(presets[0])}></ha-icon>
+                  <ha-icon .icon=${getHvacModeIcon(presets[0] as HvacMode)}></ha-icon>
                 </mushroom-button>
                 `;
-          } else {
+          }  else if (presets.length > 1)  {
             return html`
               <mushroom-button
                 style=${styleMap(iconStyle)}
@@ -490,6 +490,8 @@ export class BetterThermostatUISmallCard
                 <ha-icon .icon=${icon}></ha-icon>
               </mushroom-button>
             `;
+          } else {
+            return nothing;
           }
   }
 
