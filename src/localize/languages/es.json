@@ -2,9 +2,9 @@
   "common": {
     "version": "Versión",
     "current": "Actual",
-    "current_humidity": "Humedad actual",
-    "current_temperature": "Temperatura actual",
-    "target_temperature": "Temperatura objetivo"
+    "current_humidity": "Humedad actual\n",
+    "current_temperature": "Temperatura actual\n",
+    "target_temperature": "Temperatura objetivo\n"
   },
   "editor": {
     "card": {
@@ -31,6 +31,6 @@
     "heating": "Calefacción",
     "cooling_off": "Enfriamiento apagado",
     "heating_off": "Calefacción apagada",
-    "window_closed": "Ventana cerrada"
+    "window_closed": "Ventana cerrada\n"
   }
 }
