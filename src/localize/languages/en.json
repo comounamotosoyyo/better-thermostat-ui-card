@@ -1,7 +1,10 @@
 {
   "common": {
     "version": "version",
-    "current": "current"
+    "current": "current",
+    "current_humidity": "common.current_humidity",
+    "current_temperature": "common.current_temperature",
+    "target_temperature": "common.target_temperature"
   },
   "editor": {
     "card": {
@@ -27,6 +30,7 @@
     "cooling": "Cooling",
     "heating": "Heating",
     "cooling_off": "Cooling off",
-    "heating_off": "Heating off"
+    "heating_off": "Heating off",
+    "window_closed": "extra_states.window_closed"
   }
 }
