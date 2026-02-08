@@ -10,6 +10,7 @@
     "card": {
       "climate": {
         "disable_window": "Деактивиране на показване на отворен прозорец",
+        "disable_humidity": "Turn off the humidity display",
         "disable_summer": "Деактивиране на показване на лято",
         "disable_eco": "Деактивиране на показване на еко",
         "disable_heat": "Деактивиране на показване на отопление",
@@ -21,8 +22,7 @@
         "set_current_as_main": "Размяна на целевата температура с текущата температура",
         "show_current_as_primary": "Показване на текущата температура като основна",
         "show_secondary": "Показване на вторична информация",
-        "prevent_interaction_on_scroll": "Предотвратяване на взаимодействие при превъртане",
-        "disable_humidity": "Turn off the humidity display"
+        "prevent_interaction_on_scroll": "Предотвратяване на взаимодействие при превъртане"
       }
     }
   },

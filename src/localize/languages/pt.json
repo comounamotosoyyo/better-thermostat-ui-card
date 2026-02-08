@@ -10,6 +10,7 @@
     "card": {
       "climate": {
         "disable_window": "Desactivar Janela",
+        "disable_humidity": "Turn off the humidity display",
         "disable_summer": "Desactivar Verão",
         "disable_eco": "Desactivar Eco",
         "disable_heat": "Desactivar Aquecimento",
@@ -21,8 +22,7 @@
         "set_current_as_main": "Mudar para a temperatura local actual",
         "show_current_as_primary": "Mostrar temperatura atual como principal",
         "show_secondary": "Mostrar informações secundárias",
-        "prevent_interaction_on_scroll": "Prevenir interação ao rolar",
-        "disable_humidity": "Turn off the humidity display"
+        "prevent_interaction_on_scroll": "Prevenir interação ao rolar"
       }
     }
   },

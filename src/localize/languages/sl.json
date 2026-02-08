@@ -9,42 +9,6 @@
   "editor": {
     "card": {
       "climate": {
-        "disable_window": "Onemogoči prikaz odprtega okna",
-        "disable_summer": "Onemogoči prikaz poletja",
-        "disable_eco": "Onemogoči prikaz eco",
-        "disable_heat": "Onemogoči prikaz ogrevanja",
-        "disable_off": "Onemogoči prikaz izklopa",
-        "disable_menu": "Onemogoči meni",
-        "disable_battery_warning": "Onemogoči opozorilo o bateriji",
-        "disable_buttons": "Onemogoči gumbe plus/minus",
-        "eco_temperature": "Eco temperatura",
-        "set_current_as_main": "Zamenjaj ciljno temperaturo s trenutno temperaturo",
-        "show_current_as_primary": "Prikaži trenutno temperaturo kot primarno",
-        "show_secondary": "Prikaži sekundarne informacije",
-        "prevent_interaction_on_scroll": "Prepreči interakcijo med drsenjem",
-        "disable_humidity": "Turn off the humidity display"
-      }
-    }
-  },
-  "editor": {
-    "card": {
-      "climate": {
-        "disable_window": "Onemogoči okno",
-        "disable_summer": "Onemogoči poletje",
-        "disable_eco": "Onemogoči EKO način",
-        "disable_heat": "Onemogoči gretje",
-        "disable_off": "Onemogoči izklop",
-        "disable_menu": "Onemogoči meni",
-        "disable_battery_warning": "Onemogoči opozorilo o bateriji",
-        "disable_buttons": "Onemogoči gumba plus in minus",
-        "eco_temperature": "Eko temperatura",
-        "set_current_as_main": "Zamenjaj ciljno in trenutno temperaturo"
-      }
-    }
-  },
-  "editor": {
-    "card": {
-      "climate": {
         "disable_window": "Ugasni za okna",
         "disable_summer": "Ugasni poletje",
         "disable_eco": "Ugasni eko",

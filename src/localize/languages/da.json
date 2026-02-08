@@ -10,6 +10,7 @@
     "card": {
       "climate": {
         "disable_window": "Deaktiver vindue-åben indikator",
+        "disable_humidity": "Turn off the humidity display",
         "disable_summer": "Deaktiver sommer indikator",
         "disable_eco": "Deaktiver Eco indikator",
         "disable_heat": "Deaktiver varme indikator",
@@ -21,8 +22,7 @@
         "set_current_as_main": "Erstat målt temperatur med nuværende temperatur",
         "show_current_as_primary": "Vis nuværende temperatur som primær",
         "show_secondary": "Vis sekundær information",
-        "prevent_interaction_on_scroll": "Forhindre interaktion ved scrolling",
-        "disable_humidity": "Turn off the humidity display"
+        "prevent_interaction_on_scroll": "Forhindre interaktion ved scrolling"
       }
     }
   },

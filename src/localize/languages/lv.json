@@ -10,6 +10,7 @@
     "card": {
       "climate": {
         "disable_window": "Atspējot logu indikatoru",
+        "disable_humidity": "Turn off the humidity display",
         "disable_summer": "Atspējot vasaras režīmu",
         "disable_eco": "Atspējot ekonomisko režīmu",
         "disable_heat": "Atspējot sildīšanas režīmu",
@@ -21,8 +22,7 @@
         "set_current_as_main": "Apmainīt pašreizējo un mērķa temperatūru vietām",
         "show_current_as_primary": "Rādīt pašreizējo temperatūru kā galveno",
         "show_secondary": "Rādīt sekundāro informāciju",
-        "prevent_interaction_on_scroll": "Novērst mijiedarbību ritinot",
-        "disable_humidity": "Turn off the humidity display"
+        "prevent_interaction_on_scroll": "Novērst mijiedarbību ritinot"
       }
     }
   },

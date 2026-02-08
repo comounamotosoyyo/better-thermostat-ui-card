@@ -10,6 +10,7 @@
     "card": {
       "climate": {
         "disable_window": "Disabilita indicatore Finestra",
+        "disable_humidity": "Turn off the humidity display",
         "disable_summer": "Disabilita indicatore Estate",
         "disable_eco": "Disabilita tasto eco",
         "disable_heat": "Disabilita tasto heat",
@@ -21,8 +22,7 @@
         "set_current_as_main": "Imposta la temperatura attuale come target",
         "show_current_as_primary": "Mostra temperatura attuale come principale",
         "show_secondary": "Mostra informazioni secondarie",
-        "prevent_interaction_on_scroll": "Prevenire interazione durante lo scorrimento",
-        "disable_humidity": "Turn off the humidity display"
+        "prevent_interaction_on_scroll": "Prevenire interazione durante lo scorrimento"
       }
     }
   },

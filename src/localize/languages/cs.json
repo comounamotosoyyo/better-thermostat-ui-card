@@ -10,6 +10,7 @@
     "card": {
       "climate": {
         "disable_window": "Zakázat okno",
+        "disable_humidity": "Zakázat zobrazení vlhkosti",
         "disable_summer": "Zakázat léto",
         "disable_eco": "Zakázat eco",
         "disable_heat": "Zakázat topení",
@@ -18,11 +19,10 @@
         "disable_battery_warning": "Zakázat upozornění baterie",
         "disable_buttons": "Zakázat tlačítka plus/minus",
         "eco_temperature": "Eco teplota",
+        "set_current_as_main": "Prohodit místa cílové a aktuální teploty",
         "show_current_as_primary": "Zobrazit aktuální teplotu jako hlavní",
         "show_secondary": "Zobrazit sekundární informace",
-        "prevent_interaction_on_scroll": "Zabránit interakci při posouvání",
-        "disable_humidity": "Zakázat zobrazení vlhkosti",
-        "set_current_as_main": "Prohodit místa cílové a aktuální teploty"
+        "prevent_interaction_on_scroll": "Zabránit interakci při posouvání"
       }
     }
   },

@@ -10,6 +10,7 @@
     "card": {
       "climate": {
         "disable_window": "Inaktivera fönster-öppen visning",
+        "disable_humidity": "Turn off the humidity display",
         "disable_summer": "Inaktivera sommar visning",
         "disable_eco": "Inaktivera eco visning",
         "disable_heat": "Inaktivera värme visning",
@@ -21,8 +22,7 @@
         "set_current_as_main": "Byt måltemperatur med nuvarande temperatur",
         "show_current_as_primary": "Visa aktuell temperatur som primär",
         "show_secondary": "Visa sekundär information",
-        "prevent_interaction_on_scroll": "Förhindra interaktion vid rullning",
-        "disable_humidity": "Turn off the humidity display"
+        "prevent_interaction_on_scroll": "Förhindra interaktion vid rullning"
       }
     }
   },

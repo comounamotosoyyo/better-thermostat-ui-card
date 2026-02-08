@@ -10,6 +10,7 @@
     "card": {
       "climate": {
         "disable_window": "Desactivar indicador de finestra oberta",
+        "disable_humidity": "Turn off the humidity display",
         "disable_summer": "Desactivar indicador d'estiu",
         "disable_eco": "Desactivar indicador eco",
         "disable_heat": "Desactivar indicador de calefacció",
@@ -21,8 +22,7 @@
         "set_current_as_main": "Intercanviar la temperatura objectiu amb la temperatura actual",
         "show_current_as_primary": "Mostra la temperatura actual com a principal",
         "show_secondary": "Mostra informació secundària",
-        "prevent_interaction_on_scroll": "Evitar la interacció en desplaçar-se",
-        "disable_humidity": "Turn off the humidity display"
+        "prevent_interaction_on_scroll": "Evitar la interacció en desplaçar-se"
       }
     }
   },

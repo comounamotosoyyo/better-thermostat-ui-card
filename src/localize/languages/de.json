@@ -10,6 +10,7 @@
     "card": {
       "climate": {
         "disable_window": "Fenster-offen-Anzeige deaktivieren",
+        "disable_humidity": "Deaktiviere die Anzeige der Luftfeuchtigkeit",
         "disable_summer": "Sommer-Anzeige deaktivieren",
         "disable_eco": "Eco-Anzeige deaktivieren",
         "disable_heat": "Heiz-Anzeige deaktivieren",
@@ -21,8 +22,7 @@
         "set_current_as_main": "Zieltemperatur mit aktueller Temperatur tauschen",
         "show_current_as_primary": "Aktuelle Temperatur als primär anzeigen",
         "show_secondary": "Sekundäre Informationen anzeigen",
-        "prevent_interaction_on_scroll": "Interaktion beim Scrollen verhindern",
-        "disable_humidity": "Deaktiviere die Anzeige der Luftfeuchtigkeit"
+        "prevent_interaction_on_scroll": "Interaktion beim Scrollen verhindern"
       }
     }
   },
